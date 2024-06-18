@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <link rel="stylesheet" href="style.css">
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Popup</title>
+    </head>
+
+
+    <body>
+
+        <!--header-->
+        <section class="creativity">
+            <nav>
+                <style>
+                    .logo {
+                      width: 170px; 
+                      height: auto; 
+                    }
+                  </style>
+                  
+                  <a href="index.html"><img class="logo" src="images/logo_a.png" alt=""></a>
+                <div class="nav-links_b" id="navLinks_b">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="creativity.html">Creativity</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Creativity</h1>
+            
+        
+            
+        </section>
+
+        <div class="popup-container" id="popupContainer">
+            <div class="popup">
+                <p>We are working on this section. Please check after some time. Thank you for visiting us!</p>
+                <p>For now, you can visit:</p>
+                <ul>
+                    <li><a href="academics.html">- Academics</a></li>
+                </ul>
+                <button class="btn-home" onclick="goToHomepage()">Go to Homepage</button>
+                <button class="btn-academic" onclick="goToAcademics()">Go to Academics</button>
+            </div>
+        </div>
+        
+        <script>
+            function goToHomepage() {
+                // Redirect to the homepage
+                window.location.href = 'index.html';
+            }
+        
+            function goToAcademics() {
+                // Redirect to the academics section
+                window.location.href = 'academics.html';
+            }
+        </script>
+
+
+
+        <section class="footer">
+            <section class="about-us">
+                <h2>About Us</h2>
+                <p>Welcome to JR! We're here to support your academic journey and inspire creativity.</p>
+                <p>Explore exam resources, captivating stories, heartfelt poems, and stunning artworks. Join us in fostering a community of learning and creativity.</p>
+                <p>For inquiries, contact us at <a href="mailto:JRBusiness@gmail.com">JRBusiness@gmail.com</a></p>
+            </section>
+    
+        </section>
+        
+        <!-- <a href="popup.html" class="popup-link">Open Popup</a> -->
+
+        
+
+
+        <!---JAVA SCRIPT-->
+        <script>
+            var navLinks_b = document.getElementById("navLinks_b");
+
+            function showMenu(){
+                navLinks_b.style.right="0";
+            }
+            function hideMenu(){
+                navLinks_b.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
+
+

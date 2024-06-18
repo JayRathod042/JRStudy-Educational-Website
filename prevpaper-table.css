@@ -1,0 +1,61 @@
+.imps-table {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.table-container {
+    overflow-x: auto;
+    display: flex;
+    justify-content: center; /* Center the table horizontally */
+}
+
+
+table {
+    width: 75%;
+    max-width: 75%; /* Ensure the table does not exceed 100% of the container */
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgb(255, 255, 255);
+    border-radius: 10px; /* Adjust the value for roundness */
+}
+
+
+th, td {
+    border: 1px solid white; /* Set border color to white */
+    padding: 15px;
+    transition: background-color 0.3s ease, color 0.1s ease, box-shadow 0.3s ease;
+    border-radius: 10px; /* Adjust the value for roundness */
+}
+
+th {
+    background-color: #a1fce1; /* Light Blue */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add shadow to table header */
+    color: black; /* Change font color to white */
+}
+
+tr:nth-child(even) {
+    background-color: #befaee; /* Even rows are light gray */
+}
+
+tr:nth-child(odd) {
+    background-color: rgb(203, 255, 244); /* Odd rows are white */
+}
+
+tr:hover {
+    background-color: #a1fce1;
+    color: black; /* Change font color to white on hover */
+}
+
+@media screen and (max-width: 600px) {
+    th, td {
+        font-size: 14px;
+    }
+
+    table {
+        box-shadow: none;
+    }
+
+    th, td {
+        transition: none;
+    }
+}

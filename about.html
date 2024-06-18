@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JR - Key to Great Grades!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+    <body>
+
+        <!--header-->
+        <section class="sub-header">
+            <nav>
+                <style>
+                    .logo {
+                      width: 170px; 
+                      height: auto; 
+                    }
+                  </style>
+                  
+                  <a href="index.html"><img class="logo" src="images/logo_a.png" alt=""></a>
+                <div class="nav-links_b" id="navLinks_b">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="creativity.html">Creativity</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+            <!-- <p2>Welcome to JR, a digital space crafted with passion and purpose. <br> At JR, we are dedicated to enriching your academic journey and nurturing the spirit of creativity.</p> -->
+            
+        </section>
+
+        <section class="Intro">
+            <p>&#8226; Welcome to our Academic Hub, where knowledge meets mastery. Dive into a world of curated <br> resources designed to elevate your learning experience and drive academic success.</p>
+            <p>&#8226; Explore three key pillars in our Academics section: 'Imps' for focused study,  'Previous Year  Que-<br>stion  Papers' for exam  readiness, and 'Reading Materials' for comprehensive subject coverage.</p>
+            <p>&#8226;Unleash your full potential with targeted study aids, real exam insights, and a diverse range of   -<br>reading materials that go beyond textbooks. Elevate your academic journey with JR's Academic <br>Excellence section.</p>
+            <p>&#8226;At JR, we believe that strong academics form the foundation of success. Join us on a quest for k-<br>nowledge, where every resource is meticulously selected to empower you on your academic journey.</p>
+        </section>
+
+        <section class="about-us">
+            
+        
+            <div class="row">
+                <div class="offering-col">
+                    <h3>Our Mission:</h3>
+                    We understand the challenges students face in their educational endeavors, especially during exam times. Our mission is to provide a comprehensive platform where you can access valuable resources to enhance your exam preparation. From previous year question papers to study tips, we've got you covered.
+                </div>
+        
+                <div class="offering-col">
+                    <h3>Beyond Academics:</h3>
+                    But JR is more than just an academic hub. We believe in the power of creativity to inspire and elevate. Our Creative Content section is a canvas for students to share captivating stories, heartfelt poems, and stunning artworks. It's a place where creativity meets education, fostering a vibrant community of learning.
+                </div>
+
+            </div>
+        </section>
+
+        <section class="footer">
+            <section class="about-us">
+                <h2>Connect with Us</h2>
+                <p>Whether you are here for exam resources, creative inspiration, or to be a part of our growing community, JR welcomes you. <br> Join us on this journey of learning, exploration, and creativity.</p>
+    
+                <p>For inquiries, contact us at <a href="mailto:JRBusiness@gmail.com">JRBusiness@gmail.com</a></p>
+            </section>
+        </section>
+        
+        
+        
+
+        
+
+
+        <!---JAVA SCRIPT-->
+        <script>
+            var navLinks_b = document.getElementById("navLinks_b");
+
+            function showMenu(){
+                navLinks_b.style.right="0";
+            }
+            function hideMenu(){
+                navLinks_b.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>

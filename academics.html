@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JR - Key to Great Grades!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+
+
+    <body>
+
+        <!--header-->
+        <section class="acad">
+            <nav>
+                <style>
+                    .logo {
+                      width: 170px; 
+                      height: auto; 
+                    }
+                  </style>
+                  
+                  <a href="index.html"><img class="logo" src="images/logo_a.png" alt=""></a>
+                <div class="nav-links_b" id="navLinks_b">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="creativity.html">Creativity</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Boost Your Studies Here!</h1>
+            
+
+        </section>
+
+        
+        
+        <section class="academics">
+            <h>Welcome to our Academic Corner. Explore Imp's for study hacks, Previous Year Question Papers <br> for practice, and Reading Materials for extra knowledge. Let's ace those exams!</h>
+            
+            <div class="container">
+                <div class="box">
+                    <div class="icon">01</div>
+                    <div class="content">
+                        <h3>Previous Year Papers</h3>
+                        
+                            <p>Gain a competitive edge by delving into our extensive library of previous year question papers. These papers provide invaluable insights into the exam patterns, question formats, and difficulty levels. Practice with real exam-like scenarios to boost your confidence and enhance your performance.</p>
+                        
+                        <a href="prevpaper.html" class="link1">Click Here</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">02</div>
+                    <div class="content">
+                        <h3>IMPs</h3>
+                        
+                            <p>Unlock the key to effective exam preparation with our curated collection of Imps. These concise and crucial notes highlight the most important points for your exams, ensuring you focus on the core concepts and excel in your studies.</p>
+                        
+                        <a href="imps.html" class="link2">Click Here</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icon">03</div>
+                    <div class="content">
+                        <h3>Reading Materials</h3>
+                        
+                            <p>Explore a rich repository of reading materials covering a diverse range of subjects. Our carefully selected collection includes recommended books and study resources to supplement your academic journey. Immerse yourself in the world of knowledge and discover the additional resources that can elevate your learning experience.</p>
+                            
+                        <a href="materials.html" class="link3" >Click Here</a>
+                    </div>
+                </div>
+            </div>
+        
+        
+        </section>
+
+        <section class="footer">
+            <section class="about-us">
+                <h2>About Us</h2>
+                <p>Welcome to JR! We're here to support your academic journey and inspire creativity.</p>
+                <p>Explore exam resources, captivating stories, heartfelt poems, and stunning artworks. Join us in fostering a community of learning and creativity.</p>
+                <p>For inquiries, contact us at <a href="mailto:JRBusiness@gmail.com">JRBusiness@gmail.com</a></p>
+                
+            </section>
+    
+        </section>
+        
+        
+
+        
+
+
+        <!---JAVA SCRIPT-->
+        <script>
+            var navLinks_b = document.getElementById("navLinks_b");
+
+            function showMenu(){
+                navLinks_b.style.right="0";
+            }
+            function hideMenu(){
+                navLinks_b.style.right="-200px";
+            }
+
+        </script>
+
+        <script>
+            function openPage(pageUrl) {
+                window.location.href = pageUrl;
+            }
+        </script>
+        
+    </body>
+</html>

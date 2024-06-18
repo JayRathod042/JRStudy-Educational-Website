@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JR - Key to Great Grades!</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+        <base href="https://JR Study.firebaseapp.com/">
+        <script type="text/javascript" src="https://JR Study.firebaseapp.com/runtime.a66f828dca56eeb90e02.js"></script>
+        <script type="text/javascript" src="https://JR Study.firebaseapp.com/main.2eb2046276073df361f7.js"></script>
+    </head>
+
+
+    <body>
+
+        <!--header-->
+        <section class="header">
+            <nav>
+                <style>
+                    .logo {
+                      width: 170px; 
+                      height: auto; 
+                    }
+                  </style>
+                  
+                  <a href="index.html"><img class="logo" src="images/logo_b.png" alt=""></a>
+                <div class="nav-links_a" id="navLinks_a">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="academics.html">Academics</a></li>
+                        <li><a href="creativity.html">Creativity</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+        <div class="text-box">
+            <h1>Welcome to JR</h1>
+           
+            <p> Embark on a journey through knowledge with JR, your ultimate destination <br> for academic success and creative expression. Dive into a vast collection of <br> previous year question papers, gearing up for exams, imps, and beyond.</p>
+            <a href="about.html" class="hero-btn">Visit Us to Know More</a>
+        </div>
+        </section>
+
+        <!---Course-->
+        <section class="offerings">
+            <h2>What We Offer</h2>
+            <p>Explore a variety of resources tailored to support your academic journey and beyond.</p>
+        
+            <div class="row">
+                <div class="offering-col">
+                    <h3>Previous Year Question Papers</h3>
+                    <ul>
+                        <li>Access an extensive collection curated for your college.</li>
+                        <li>Gain insights into exam patterns for effective preparation.</li>
+                        <li>Boost your confidence with real exam-like scenarios.</li>
+                    </ul>
+                </div>
+        
+                <div class="offering-col">
+                    <h3>Imps for Your Exams</h3>
+                    <ul>
+                        <li>Unlock essential exam tips and study techniques.</li>
+                        <li>Receive guidance on effective time management.</li>
+                        <li>Learn strategies for tackling various exam formats confidently.</li>
+                    </ul>
+                </div>
+        
+                <div class="offering-col">
+                    <h3>Reading Materials</h3>
+                    <ul>
+                        <li>Explore recommended reading materials for diverse subjects.</li>
+                        <li>Access educational resources to supplement your studies.</li>
+                        <li>Discover a wealth of knowledge through our curated book selections.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="creative-content">
+            <h2>Discover Creativity</h2>
+            <p>Explore the imaginative world of our students through captivating stories and soulful poems. <br >Delve into the vibrant realm of artworks that bring unique perspectives and artistic expressions to life.
+
+            </p>
+        
+            <div class="row">
+                
+                <div class="creative-col">
+                    <img src="images/Stories written by fellow students.png">
+                    <div class="layer">
+
+                        <h3 style="font-size: 24px; font-weight: 600; line-height: 1.2;">
+                            Expressive Narratives:
+                            <br>
+                            <br>
+                            <span style="font-size: 16px;">
+                                Engage with our community's storytelling prowess as we showcase stories that transport you to different worlds and poems that resonate with emotions, offering a literary journey like no other.
+                            </span>
+                        </h3>    
+                    </div>
+                </div>
+
+                <div class="creative-col">
+                    <img src="images/Arts Made by Your Fellow Students.png">
+                    <div class="layer">
+                        <h3 style="font-size: 24px; font-weight: 600; line-height: 1.2;">
+                            Visual Masterpieces:
+                            <br>
+                            <br>
+                            <span style="font-size: 16px;">
+                                Journey through an art gallery featuring an array of stunning artworks. From intricate details to bold strokes, our students' artistic endeavors unfold in a colorful display of creativity.
+                            </span>
+                        </h3>
+
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="footer">
+            <section class="about-us">
+                <h2>About Us</h2>
+                <p>Welcome to JR! We're here to support your academic journey and inspire creativity.</p>
+                <p>Explore exam resources, captivating stories, heartfelt poems, and stunning artworks. Join us in fostering a community of learning and creativity.</p>
+                <p>For inquiries, contact us at <a href="mailto:JRBusiness@gmail.com">JRBusiness@gmail.com</a></p>
+            </section>
+        
+            <section class="image-credit">
+                <p>Background Image Credits: Image by <a href="https://www.freepik.com/free-photo/back-school-witch-school-supplies_4386565.htm#page=3&query=education%20background&position=34&from_view=keyword&track=ais&uuid=013509d6-26b3-4625-ba8a-e722ea6b0da7">Freepik</a></p>
+            </section>
+        </section>
+        
+        
+        
+
+        
+
+
+        <!---JAVA SCRIPT-->
+        <script>
+            var navLinks_a = document.getElementById("navLinks_a");
+            var navLinks_b = document.getElementById("navLinks_b");
+
+            function showMenu(){
+                navLinks_a.style.right="0";
+                navLinks_b.style.right="0";
+            }
+            function hideMenu(){
+                navLinks_a.style.right="-200px";
+                navLinks_b.style.right="-200px";
+            }
+        </script>
+    </body>
+</html>
