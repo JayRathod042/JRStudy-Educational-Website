@@ -16,6 +16,11 @@ The primary objective of the JR website is to create a comprehensive online plat
 ## Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript
-- **Backend:** [Specify the backend technology/framework used, e.g., Node.js, Python, Ruby on Rails]
-- **Database:** [Specify the database technology used, e.g., MongoDB, PostgreSQL, MySQL]
-- **Deployment:** [Specify the deployment platform/service used, e.g., Heroku, AWS, DigitalOcean]
+
+The frontend of the JR educational website has been developed using HTML, CSS, and JavaScript. This allows for a visually appealing and interactive user interface, making it easy for students to navigate and access the available resources.
+
+- **Backend:** [To be determined]
+- **Database:** [To be determined]
+- **Deployment:** [To be determined]
+
+The backend and database technologies, as well as the deployment platform/service, are yet to be decided upon. These components will be implemented in the future to enable dynamic functionality, data storage, and hosting of the website.
